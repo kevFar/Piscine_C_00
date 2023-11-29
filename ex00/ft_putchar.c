@@ -9,5 +9,10 @@
 /*   Updated: 2023/11/29 14:24:38 by nfararan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <stdio.h>
+#include <unistd.h>
 
-
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
